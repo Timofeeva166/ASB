@@ -41,7 +41,7 @@
   font-family: 'Playfair Display';
 }
 
-@media (width < 768px) {
+@media (width < 900px) {
   .content {
     padding: 50px 30px;
   }
