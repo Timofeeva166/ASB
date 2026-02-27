@@ -13,9 +13,14 @@
   background-color: #F0D98A;
 }
 
-.logo {
-  inline-size: 178px;
+.link {
+  inline-size: 180px;
   block-size: 105px;
+}
+
+.logo {
+  inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
   padding: 20px;
   border: 1px #000 solid;
@@ -27,7 +32,7 @@
   font-style: italic;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   color: #4a4a4a;
   font-size: 20px;
 }
@@ -38,7 +43,7 @@
   color: #4a4a4a;
   flex-direction: column;
   font-weight: 400;
-  font-size: 85px;
+  font-size: 92px;
   font-family: 'Playfair Display';
 }
 
