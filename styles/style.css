@@ -6,10 +6,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-block-size: 100vh;
+  min-height: 100dvh;
   font-family: 'Inter', sans-serif;
   gap: 33px;
-  background-position: fixed;
+  background-attachment: fixed;
 }
 
 .logo {
