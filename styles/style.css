@@ -10,7 +10,9 @@
   font-family: 'Inter', sans-serif;
   gap: 42px;
   background-attachment: fixed;
-  background-color: #F0D98A;
+  opacity: 0;
+  visibility: hidden;
+  animation: fadeIn 2s ease forwards;
 }
 
 .link {
@@ -54,5 +56,12 @@
 
   .title {
     font-size: 60px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    visibility: visible;
   }
 }
