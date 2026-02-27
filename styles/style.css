@@ -8,13 +8,14 @@
   justify-content: center;
   min-height: 100dvh;
   font-family: 'Inter', sans-serif;
-  gap: 33px;
+  gap: 42px;
   background-attachment: fixed;
+  background-color: #F0D98A;
 }
 
 .logo {
-  inline-size: 140px;
-  block-size: 85px;
+  inline-size: 178px;
+  block-size: 105px;
   object-fit: cover;
   padding: 20px;
   border: 1px #000 solid;
@@ -28,7 +29,7 @@
   flex-direction: column;
   gap: 15px;
   color: #4a4a4a;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .title {
@@ -37,7 +38,7 @@
   color: #4a4a4a;
   flex-direction: column;
   font-weight: 400;
-  font-size: 68px;
+  font-size: 85px;
   font-family: 'Playfair Display';
 }
 
