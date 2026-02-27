@@ -1,0 +1,48 @@
+.content {
+  background-image: url('../images/background.png.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-block-size: 100vb;
+  font-family: 'Inter', sans-serif;
+  gap: 33px;
+  background-position: fixed;
+}
+
+.logo {
+  inline-size: 140px;
+  block-size: 85px;
+  object-fit: cover;
+  padding: 20px;
+  border: 1px #000 solid;
+  border-radius: 20%;
+}
+
+.list {
+  list-style-type: circle;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #4a4a4a;
+  font-size: 15px;
+}
+
+.title {
+  text-transform: uppercase;
+  display: flex;
+  color: #4a4a4a;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 68px;
+  font-family: 'Playfair Display';
+}
+
+@media (width < 768px) {
+  .content {
+    padding: 50px 30px;
+  }
+}
